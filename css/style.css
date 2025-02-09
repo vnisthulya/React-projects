@@ -1,0 +1,22 @@
+body {
+    font-family:  Helvetica, sans-serif;
+    background-color: beige;
+}
+#heading {
+    color:cadetblue;
+}
+h1#heading {
+    font-size: 46px;
+}
+h2#heading {
+    font-size: 32px;
+}
+
+#para {
+    display:block;
+    margin: 0;
+    padding: 5px;
+    background-color:antiquewhite;
+    font-size: 14px;
+    color:cornflowerblue;
+}
