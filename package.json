@@ -1,0 +1,32 @@
+{
+  "name": "react-projects",
+  "version": "1.0.0",
+  "description": "This is react learnings by Vinod",
+  "scripts": {
+    "test": "Just"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vnisthulya/react-projects.git"
+  },
+  "keywords": [
+    "react",
+    "react",
+    "learnings",
+    "parcel"
+  ],
+  "author": "S Vinod",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vnisthulya/react-projects/issues"
+  },
+  "homepage": "https://github.com/vnisthulya/react-projects#readme",
+  "devDependencies": {
+    "parcel": "^2.13.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
