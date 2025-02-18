@@ -1,27 +1,31 @@
-//
-
 import React from 'react';
-import ReactDOM from 'react-dom';
 import ReactDOM from 'react-dom/client';
+import image from './img/gvm.png'
 
-
-const parent= React.createElement("div", {id: "parent"}, 
-    [React.createElement("div", {id: "c1"},
-    [
-        React.createElement("h1", {id:"heading"}, "Hello World! Im React."),
-        React.createElement("p", {id:"para"}, "getting ready to become a - conqueror!"),
-        React.createElement("p", {id:"para"}, "That's a fantastic attitude!  \"Conqueror\" implies overcoming challenges and achieving victory. Here are some ways to express that you're getting ready to become a conqueror, depending on the context: thats the beauty")
-    ]),
-    React.createElement("div", {id: "c2"},
-    [
-        React.createElement("h2", {id:"heading"}, "Mission"),
-        React.createElement("p", {id:"para"}, "Get ready for 40"),
-        React.createElement("p", {id:"para"}, "Turning 40 is a big milestone! It's a time for reflection, celebration, and looking forward to the exciting chapters ahead. Here are some ways to express \"Get ready for 40,\"")
-    ])]
+// React Element
+const HeroCopy = () => (
+    <div id='container'>
+        <h1 className='herocopy'> functional component </h1>
+        <img src={image} alt='gvm' className='imgRight' width='250' height='250' ></img>
+    </div>
 );
-    
-    console.log("parent::", parent);
+
+// Funtional component 
+const HeroPara = () => (
+    <p className='paraComponent'> 
+        This is the first functional component along with the component composition 
+    </p>
+);
+
+const HeroComponent = () => (
+    <div>
+        <HeroCopy />
+        <HeroPara />
+    </div>
+)
+
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(parent);
 
+root.render(<HeroComponent />);

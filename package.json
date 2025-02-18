@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "This is react learnings by Vinod",
   "scripts": {
+    "start": "parcel component.html",
+    "build": "parcel build component.html",
     "test": "Just"
   },
   "repository": {
